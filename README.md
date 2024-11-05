@@ -190,3 +190,122 @@ int main() {
 		
 }
 ```
+#### Bai 3 buoi 2
+```c
+#include <iostream>
+using namespace std;
+int main() {
+    while (true) {
+        int n, sum = 0;
+        cin >> n;
+        if (n <= 0) break;
+        while (n > 0) {
+            sum += n % 10;
+            n /= 10;
+        }
+
+        cout << sum << endl;
+    }
+}
+```
+#### Bai 4 buoi 2
+```c
+#include <iostream>
+#include<conio.h>
+using namespace std;
+int main() {
+	int n;
+	cout << "Nhap vao mot so duong (<1000): ";
+	cin >> n;
+	while (n < 0) {
+		cout << "Nhap sai, nhap lai:";
+		cin >> n;
+	}
+	int donVi = n % 10; n = n / 10;
+	int chuc = n % 10; n = n / 10;
+	int tram = n % 10; n = n / 10;
+
+	do {
+		char c;
+		
+		switch (tram) {
+		case 1: cout << "mot tram "; break;
+		case 2: cout << "hai tram "; break;
+		case 3: cout << "ba tram "; break;
+		case 4: cout << "bon tram "; break;
+		case 5: cout << "nam tram "; break;
+		case 6: cout << "sau tram "; break;
+		case 7: cout << "bay tram "; break;
+		case 8: cout << "tam tram "; break;
+		case 9: cout << "chin tram "; break;
+		}
+
+		switch (chuc) {
+		case 1: cout << "muoi "; break;
+		case 2: cout << "hai muoi "; break;
+		case 3: cout << "ba muoi "; break;
+		case 4: cout << "bon muoi "; break;
+		case 5: cout << "nam muoi "; break;
+		case 6: cout << "sau muoi "; break;
+		case 7: cout << "bay muoi "; break;
+		case 8: cout << "tam muoi "; break;
+		case 9: cout << "chin muoi "; break;
+		case 0: if (donVi > 0 && tram > 0) cout << "le "; break;
+		}
+
+		switch (donVi) {
+		case 1: cout << "một "; break;
+		case 2: cout << "hai "; break;
+		case 3: cout << "ba "; break;
+		case 4: cout << "bon "; break;
+		case 5: cout << "nam "; break;
+		case 6: cout << "sau "; break;
+		case 7: cout << "bay "; break;
+		case 8: cout << "tam "; break;
+		case 9: cout << "chin "; break;
+		}
+
+		c = _getch();
+		if (c == 27)break;
+	} while (true);
+}
+```
+#### Bai 5 buoi 2
+```c
+#include <iostream>
+using namespace std;
+int main() {
+	int n;
+	while (true) {
+		cout << "Nhap vao mot so (nhap 0 de dung): ";
+		cin >> n;
+		if (n < 0)break;
+
+		for (int i = 1; i < n; i+=2) {
+			if (n % i != 0)cout << i << " "<<endl;
+		}
+	}
+}
+```
+#### Bai 6 buoi 2
+```c
+#include <iostream>
+using namespace std;
+int main() {
+	int n;
+	do{
+		cout << "Nhap vao mot so tu 2 tro len: ";
+		cin >> n;
+		int sum = 0;
+		for (int i = 1; i <= n; i++) {
+			if (i != n)cout << i << < "+";
+			else cout << i << " = ";
+			sum+=i
+		}
+		cout << sum << endl;
+
+	} while (n >= 2);
+}
+```
+
+
