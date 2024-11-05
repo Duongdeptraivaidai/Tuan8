@@ -298,9 +298,9 @@ int main() {
 		cin >> n;
 		int sum = 0;
 		for (int i = 1; i <= n; i++) {
-			if (i != n)cout << i << < "+";
+			if (i != n)cout << i << "+";
 			else cout << i << " = ";
-			sum+=i
+			sum+=i;
 		}
 		cout << sum << endl;
 
