@@ -8,7 +8,7 @@ int main() {
 		int n, dem = 0;
 		cout << "Nhap vao mot so nguyen duong (-1 de ket thuc): ";
 		cin >> n;
-		if (n == -1)break;
+		if (n == -1)break; 
 		while (n != 0) { n /= 10; dem++; }
 		cout <<"so "<< n<<" co "<< dem << " ky so " << endl;
 	}
