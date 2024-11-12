@@ -1,4 +1,5 @@
-#### Bai 1 buoi 1
+# Buoi 1
+#### Bai 1 
 ```c
 #include <iostream>
 using namespace std;
@@ -17,7 +18,7 @@ int main() {
 }
 
 ```
-#### Bai 2 buoi 1 
+#### Bai 2 
 ```c
 #include <iostream>
 using namespace std;
@@ -40,7 +41,7 @@ int main() {
 	}
 }
 ```
-#### Bai 3 buoi 1 
+#### Bai 3
 ```c
 #include <iostream>
 using namespace std;
@@ -58,7 +59,7 @@ int main() {
 	}
 }
 ```
-#### Bai 4 buoi 1 
+#### Bai 4 
 ```c
 #include <iostream>
 using namespace std;
@@ -74,7 +75,7 @@ int main() {
 	} while (n > 0);
 }
 ```
-#### Bai 6 buoi 1 
+#### Bai 6 
 ```c
 #include <iostream>
 using namespace std;
@@ -92,7 +93,7 @@ int main() {
 		
 }
 ```
-#### Bai 7 buoi 1 
+#### Bai 7 
 ```c
 #include <iostream>
 using namespace std;
@@ -110,7 +111,7 @@ int main() {
 	} while (n != -1);
 }
 ```
-#### Bai 8 buoi 1 
+#### Bai 8
 ```c
 #include <iostream>
 using namespace std;
@@ -128,7 +129,7 @@ int main() {
 	} while (n != -1);
 }
 ```
-#### Bai 9 buoi 1 
+#### Bai 9
 ```c
 #include <iostream>
 using namespace std;
@@ -146,7 +147,8 @@ int main() {
 	} while (n != -1);
 }
 ```
-#### Bai 1 buoi 2
+# Buoi 2
+#### Bai 1
 ```c
 #include <iostream>
 #include <conio.h>
@@ -170,7 +172,7 @@ int main() {
 	} while (true); 
 }
 ```
-#### Bai 2 buoi 2
+#### Bai 2 
 ```c
 #include <iostream>
 using namespace std;
@@ -190,7 +192,7 @@ int main() {
 		
 }
 ```
-#### Bai 3 buoi 2
+#### Bai 3 
 ```c
 #include <iostream>
 using namespace std;
@@ -208,7 +210,7 @@ int main() {
     }
 }
 ```
-#### Bai 4 buoi 2
+#### Bai 4
 ```c
 #include <iostream>
 #include<conio.h>
@@ -270,7 +272,7 @@ int main() {
 	} while (true);
 }
 ```
-#### Bai 5 buoi 2
+#### Bai 5
 ```c
 #include <iostream>
 using namespace std;
@@ -287,7 +289,7 @@ int main() {
 	}
 }
 ```
-#### Bai 6 buoi 2
+#### Bai 6 
 ```c
 #include <iostream>
 using namespace std;
